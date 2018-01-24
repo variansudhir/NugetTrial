@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sudhir.Nuget.Trial</id>
+    <title>My Trial Package</title>
+    <version>1.0.0</version>
+    <authors>Sudhir Srivastava</authors>
+    <owners>Sudhir Srivastava, Pune, India</owners>
+    <licenseUrl>https://in.linkedin.com/in/sudhirsrivastava</licenseUrl>
+    <projectUrl>https://github.com/variansudhir/NugetTrial</projectUrl>
+    <iconUrl>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-grey-square-icons-alphanumeric/118474-matte-grey-square-icon-alphanumeric-letter-s.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is my first trial package for using Nuget</description>
+    <releaseNotes>Initial Version.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>sudhir.kr84@gmail.com</tags>
+    <dependencies>
+      <!--<dependency id="SampleDependency" version="1.0" />-->
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="NugetTrial\bin\Debug\Sudhir.NugetTrial.dll" target="lib\Sudhir.NugetTrial.dll"/>
+  </files>
+</package>
